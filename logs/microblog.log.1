@@ -1,0 +1,109 @@
+2024-11-03 16:45:47,748 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 16:46:03,741 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 16:48:18,320 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 16:48:33,989 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 16:50:19,189 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 16:52:05,562 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 16:54:02,531 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 16:54:34,281 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 16:54:50,232 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 16:57:30,706 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 16:58:03,016 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 16:58:30,966 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 16:59:06,224 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 17:32:51,596 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 17:33:20,966 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 17:33:28,201 ERROR: Exception on /login [POST] [in /Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py:838]
+Traceback (most recent call last):
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/kenny/Desktop/microblog/app/routes.py", line 20, in login
+    print(1/0)
+ZeroDivisionError: division by zero
+2024-11-03 17:35:35,360 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 17:35:55,084 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 17:35:56,655 ERROR: Exception on /login [POST] [in /Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py:838]
+Traceback (most recent call last):
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/kenny/Desktop/microblog/app/routes.py", line 20, in login
+    print(1/0)
+ZeroDivisionError: division by zero
+2024-11-03 17:36:36,892 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-03 17:36:44,543 ERROR: Exception on /edit_profile [GET] [in /Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py:838]
+Traceback (most recent call last):
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/kenny/Desktop/microblog/venv/lib/python3.9/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/Users/kenny/Desktop/microblog/app/routes.py", line 74, in edit_profile
+    print(1/0)
+ZeroDivisionError: division by zero
+2024-11-07 14:53:18,214 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-07 14:53:24,706 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-07 14:53:53,429 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-07 14:54:37,775 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-07 14:55:09,825 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-07 14:55:18,653 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-07 15:31:38,782 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-07 15:33:08,339 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-07 15:34:48,666 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-07 17:04:08,764 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:42]
+2024-11-10 15:46:17,677 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:44]
+2024-11-10 15:52:39,529 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:51]
+2024-11-10 15:57:52,659 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:45]
+2024-11-10 16:00:37,921 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:45]
+2024-11-10 16:00:41,168 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:45]
+2024-11-10 16:31:34,575 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:45]
+2024-11-10 16:35:09,369 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:45]
+2024-11-11 14:21:05,669 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:55]
+2024-11-11 14:21:41,081 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:55]
+2024-11-11 14:21:51,225 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:55]
+2024-11-11 14:22:45,996 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:55]
+2024-11-11 14:23:44,200 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:55]
+2024-11-11 14:24:08,156 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:55]
+2024-11-11 14:27:02,262 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:27:30,801 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:30:51,152 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:35:59,231 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:36:02,719 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:36:33,847 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:36:35,045 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:36:44,120 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:37:00,440 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:47:35,383 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:47:45,167 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:47:57,708 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:54:36,047 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:55:10,616 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 14:55:27,763 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:54]
+2024-11-11 15:01:35,927 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:58]
+2024-11-11 15:02:26,398 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:58]
+2024-11-11 15:12:21,494 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:58]
+2024-11-11 15:12:50,293 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:58]
+2024-11-11 15:14:39,096 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:58]
+2024-11-11 15:15:25,256 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:58]
+2024-11-11 15:21:45,896 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:55]
+2024-11-11 15:21:57,828 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:55]
+2024-11-11 15:24:15,903 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:55]
+2024-11-11 15:24:20,404 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:55]
+2024-11-11 15:34:49,654 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:55]
+2024-11-11 15:35:08,438 INFO: Microblog startup [in /Users/kenny/Desktop/microblog/app/__init__.py:55]
